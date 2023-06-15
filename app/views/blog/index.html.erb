@@ -1,0 +1,16 @@
+<h1>Blog post App</h1>
+
+<ul>
+  <% @blog.each do |blogs| %>
+  <li><%= blog.title %></li>
+  <% end %>
+</ul>
+
+<h1> Titles </h1>
+
+<ul> 
+  <li><%= link_to 'Title 1', 'title1'%></li>
+  <li><%= link_to 'Title 2', 'title2'%></li>
+  <li><%= link_to 'Title 3', 'title3'%></li>
+  <li><%= link_to 'Title 4', 'title4'%></li>
+</ul>
